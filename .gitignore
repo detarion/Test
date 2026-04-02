@@ -1,3 +1,29 @@
-.gitignore
-main
-build/*
+# Сборка
+build/
+bin/
+obj/
+out/
+
+# Результаты компиляции
+*.o
+*.a
+*.so
+*.out
+*.exe
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Временные файлы Linux и редакторов
+*~
+*.swp
+.DS_Store
