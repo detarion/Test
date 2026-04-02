@@ -10,6 +10,7 @@ out/
 *.so
 *.out
 *.exe
+/main
 
 # CMake
 CMakeCache.txt
